@@ -1,0 +1,26 @@
+.first-letter{
+    font-size: 140%;
+    font-weight: bold;
+}
+
+div::first-letter{
+    font-size: 140%;
+    font-weight: bold;
+}
+
+p::first-line{
+    font-size: 20px;
+}
+
+::selection{
+    background-color: darkmagenta;
+}
+
+p::before{
+     content: '...';
+     display: block;
+}
+
+p::after{
+    content: '...';
+}
