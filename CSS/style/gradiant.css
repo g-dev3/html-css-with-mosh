@@ -1,0 +1,9 @@
+.box,.box1{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(-45deg,skyblue,darkmagenta, blue 90%) ;
+}
+
+.box1{
+    background: radial-gradient(circle at top left,white,yellow) ;
+}
