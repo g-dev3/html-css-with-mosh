@@ -1,0 +1,36 @@
+article .first{
+    font-style: italic;
+    color: red;
+}
+
+article :first-child{
+    color: skyblue;
+    background-color: darkblue;
+}
+
+article :first-of-type{
+    color: magenta;
+}
+
+article :last-of-type{
+    background-color: red;
+}
+
+article :last-child{
+    font-weight: bold;
+}
+
+ul li:nth-child(odd){
+    color: deeppink;
+}
+
+ul li:nth-child(2n){
+    color: blue;
+}
+
+a:visited, a:link {
+    color: dodgerblue;
+}
+a:hover , a:focus {
+    color: deeppink;
+}
