@@ -1,0 +1,38 @@
+/* table th{
+    background-color: #427fef;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd){
+    background-color: #eef7ff;
+}
+
+
+tfoot, thead th{
+    text-align: left;
+} */
+table{
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid #c4dcf3;
+}
+table th,td{
+    padding: 8px;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #eef7ff;
+}
+
+table th{
+    background-color: #427fef;
+    color: white;
+}
+
+table tfoot th{
+    text-align: left;
+}
