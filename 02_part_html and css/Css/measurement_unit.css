@@ -1,0 +1,7 @@
+.box{
+    /* parent element */
+    width: 10rem;
+    height: 100vh;
+    background-color: gold;
+    border: 1px solid orange;
+}
