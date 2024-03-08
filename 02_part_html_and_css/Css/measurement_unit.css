@@ -1,6 +1,12 @@
+*{
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+    margin: 0;
+    padding: 0;
+}
 .box{
     /* parent element */
-    width: 10rem;
+    width: 15rem;
     height: 100vh;
     background-color: gold;
     border: 1px solid orange;
